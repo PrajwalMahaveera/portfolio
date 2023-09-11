@@ -285,6 +285,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/HeartRate.png"),
+      projectName: "HealthVitals Pro",
+      projectDesc: "Designed and implemented a Context Monitoring Application for Android users, integrating heart rate and respiratory rate sensing capabilities using smartphone sensors and camera technology. This application enabled users to monitor their vital signs conveniently and utilized SQLite as the database system for secure data storage and management.",
+      footerLink: [
+        // {
+        //   name: "View redesign",
+        //   url: "https://un26ff.axshare.com/#id=p5vr8a&p=homepage"
+        // }
+      ]
+    },
+    {
       image: require("./assets/images/VANET2.png"),
       projectName: "Topological and Geographical VANET Routing Protocol Analysis",
       projectDesc: "Simulated and analysed Topological and Geographical Vehicular ad hoc Network(VANET) routing protocols over real-world scenarios and Bengaluru locality map and analysed/compared the results to determine the best suited protocols for scenarios.",
@@ -295,50 +306,6 @@ const bigProjects = {
         // }
       ]
     },
-    // {
-    //   image: require("./assets/images/hive-logo.png"),
-    //   projectName: "Mini Hive Engine",
-    //   projectDesc: "Map-Reduce-based mini SQL Engine on Hadoop supporting SQL queries like select, load, delete, and aggregate functions",
-    //   footerLink: [
-    //     {
-    //       name: "Visit repo",
-    //       url: "https://github.com/Surya-Narayan/MiniHiveEngine"
-    //     }
-    //   ]
-    // },
-    // {
-    //   image: require("./assets/images/spotify-logo.png"),
-    //   projectName: "Spotify Clone Website",
-    //   projectDesc: "Built a music website to search and play songs, with music recommendation data analysis from spotify dataset",
-    //   footerLink: [
-    //     {
-    //       name: "Visit repo",
-    //       url: "https://github.com/ACV11/Spotify-Clone"
-    //     }
-    //   ]
-    // },
-    // {
-    //   image: require("./assets/images/pokemon-logo.png"),
-    //   projectName: "Pokemon generation with color DCGAN",
-    //   projectDesc: "Used Pokemon dataset to generate new pokemons with the help of color dcgan",
-    //   footerLink: [
-    //     {
-    //       name: "Visit repo",
-    //       url: "https://github.com/ACV11/Spotify-Clone"
-    //     }
-    //   ]
-    // },
-    // {
-    //   image: require("./assets/images/xbox-logo3.png"),
-    //   projectName: "3d Reconstruction of Plant leaves",
-    //   projectDesc: "Used Xbox Kinect 360, Meshlab and OpenCV to 3d reconstruct a plant and split leaves to track their measurements",
-    //   footerLink: [
-    //     {
-    //       name: "Visit Demo",
-    //       url: "https://www.youtube.com/watch?v=uF8UXjIiV0A"
-    //     }
-    //   ]
-    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -353,11 +320,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "AWS Cloud Practitioner Certificate",
+      subtitle:
+        "Successfully completed the AWS Cloud Practitioner Certification.",
+      image: require("./assets/images/AWS.png"),
+      imageAlt: "AWS Cloud Practitioner",
+      footerLink: [{name: "Certification", url: "https://www.credly.com/badges/de88f9db-55e3-4185-8663-03687ae1feb9/linked_in_profile"}],
+    },
+    {
       title: "Arranged and managed Open House Expo",
       subtitle:
         "Successfully organized and oversaw an Open House Project Expo, demonstrating my strong event management skills and ability to coordinate a large-scale event.",
-      image: require("./assets/images/eyantra-logo.png"),
-      imageAlt: "E-yantra Robotics IIT Bombay",
+      image: require("./assets/images/RNSITimage.png"),
+      imageAlt: "Open House Expo RNSIT",
       footerLink: [
       ]
     },
@@ -402,7 +377,7 @@ const achievementSection = {
     //   ]
     // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // mimick achievemnt section again 
