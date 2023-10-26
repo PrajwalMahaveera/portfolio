@@ -229,6 +229,18 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/Android.png"),
+      projectName: "MobileChain Pro: Mobile Phone Supply Management",
+      projectDesc: "Spearheading a team to design, implement, and optimize a supply chain tracking and management system using PostgreSQL, Apache ZooKeeper, Apache Ignite, MongoDB, and Docker for increased scalability, improve data retrieval, and reduced recovery failure.",
+      footerLink: [
+        // {
+        //   name: "Visit repo",
+        //   url: "https://github.com/Surya-Narayan/546-lambda"
+        // }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/Android.png"),
       projectName: "Enhanced Android Security with ML Malware Detection",
       projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
       footerLink: [
@@ -264,7 +276,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/HCI.png"),
-      projectName: "Revitalizing PennyJuice for Modern Appeal",
+      projectName: "Enhancing PennyJuice for Modern Appeal",
       projectDesc: "Redesigned the PennyJuice website, addressing flaws by incorporating key HCI laws. Analyzed user data, achieving an increase in task satisfaction of average SUS score from 34.17 to 84.5.",
       footerLink: [
         {
