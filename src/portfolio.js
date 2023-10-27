@@ -228,7 +228,7 @@ const bigProjects = {
   subtitle: "Some of my most favorite projects in no particular order",
   projects: [
     {
-      image: require("./assets/images/Android.png"),
+      image: require("./assets/images/DDS.png"),
       projectName: "MobileChain Pro: Mobile Phone Supply Management",
       projectDesc: "Spearheading a team to design, implement, and optimize a supply chain tracking and management system using PostgreSQL, Apache ZooKeeper, Apache Ignite, MongoDB, and Docker for increased scalability, improve data retrieval, and reduced recovery failure.",
       footerLink: [
@@ -240,7 +240,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Android.png"),
+      image: require("./assets/images/AndroidStudio.png"),
       projectName: "Enhanced Android Security with ML Malware Detection",
       projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
       footerLink: [
@@ -252,7 +252,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/employeeinformation.png"),
+      image: require("./assets/images/AWS.png"),
       projectName: "Serverless Employee Details Management",
       projectDesc: "An AWS project integration AngularJS with secure user authentication which lets the user store, add and search employee information. ",
       footerLink: [
@@ -264,7 +264,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/journalapplication.png"),
+      image: require("./assets/images/Journal.png"),
       projectName: "Android Journaling Application",
       projectDesc: "An Android application on Android Studio using the MVC (Model-View-Controller) structure to add/modify, store, and share journals. Added the user authentication method using Google account.",
       footerLink: [
@@ -286,7 +286,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/FakeReviews.png"),
+      image: require("./assets/images/FakeReview.png"),
       projectName: "Fake Reviews Detection",
       projectDesc: "Analyzed fake and authentic reviews using machine learning models, identifying key features like date variance, activity time for differentiation.Compared model performance, with Random Forest outperforming SVM and deep learning. Proposed utilizing review content, sentiment analysis, emphasizing the importance of larger review corpus.",
       footerLink: [
@@ -335,7 +335,7 @@ const achievementSection = {
       title: "AWS Cloud Practitioner Certificate",
       subtitle:
         "Successfully completed the AWS Cloud Practitioner Certification.",
-      image: require("./assets/images/AWS.png"),
+      image: require("./assets/images/AWS_Certificate.png"),
       imageAlt: "AWS Cloud Practitioner",
       footerLink: [{name: "Certification", url: "https://www.credly.com/badges/de88f9db-55e3-4185-8663-03687ae1feb9/linked_in_profile"}],
     },
