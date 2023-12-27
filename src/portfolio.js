@@ -166,6 +166,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    // {
+    //   role: "Software Consultant Intern",
+    //   company: "Local Grown Salads",
+    //   companylogo: require("./assets/images/LGS5.png"),
+    //   date: "May 2023 – Present",
+    //   desc: "",
+    //   descBullets: [
+    //     "Wrote SQL queries to manage table deletions and modifications within AWS RDS. Collaborated on testing AWS Lambda functions using Postman, leading to a noteworthy enhancement of results by 20%.",
+    //     "Collaborated with cross-functional teams to build Dataflow diagrams, designed and executed a team roadmap, leading a group of four to achieve successful results."
+    //   ]
+    // },
     {
       role: "Software Consultant Intern",
       company: "Local Grown Salads",
@@ -173,21 +184,43 @@ const workExperiences = {
       date: "May 2023 – Present",
       desc: "",
       descBullets: [
-        "Wrote SQL queries to manage table deletions and modifications within AWS RDS. Collaborated on testing AWS Lambda functions using Postman, leading to a noteworthy enhancement of results by 20%.",
-        "Collaborated with cross-functional teams to build Dataflow diagrams, designed and executed a team roadmap, leading a group of four to achieve successful results."
+        "Managed SQL queries for table modifications in AWS RDS, enhancing processes.",
+        "Led cross-functional teams, creating Dataflow diagrams and executing successful team roadmaps."
       ]
     },
+    // {
+    //   role: "Application Development Associate",
+    //   company: "Accenture",
+    //   companylogo: require("./assets/images/accenture.png"),
+    //   date: "Aug 2021 – May 2022",
+    //   desc: "",
+    //   descBullets: ["Collaborated with Agilent and internal teams to troubleshoot software issues, significantly improving file upload speeds by up to 30%.",
+    //     "Served as primary client liaison for the Openlab application, taking ownership of the application and proactively identifying and debugging core issues to ensure optimal performance and customer satisfaction.",
+    //     "Supported life science applications like Openlab and Empower, clearing approximately 90 software issues and incidents weekly. Leveraged project management software JIRA to track the project's progress and Git for version control to complete it two weeks before the expected duration."
+    //   ]
+    // },
     {
       role: "Application Development Associate",
       company: "Accenture",
       companylogo: require("./assets/images/accenture.png"),
       date: "Aug 2021 – May 2022",
       desc: "",
-      descBullets: ["Collaborated with Agilent and internal teams to troubleshoot software issues, significantly improving file upload speeds by up to 30%.",
-        "Served as primary client liaison for the Openlab application, taking ownership of the application and proactively identifying and debugging core issues to ensure optimal performance and customer satisfaction.",
-        "Supported life science applications like Openlab and Empower, clearing approximately 90 software issues and incidents weekly. Leveraged project management software JIRA to track the project's progress and Git for version control to complete it two weeks before the expected duration."
+      descBullets: [
+        "Managed Openlab application, ensuring optimal performance by proactively identifying and resolving core issues.",
+        "Supported life science applications, resolving around 90 weekly software issues using JIRA for project tracking and Git for version control, completing projects ahead of schedule."
       ]
     },
+    // {
+    //   role: "Software Development Intern",
+    //   company: "Surya Software Pvt Ltd",
+    //   companylogo: require("./assets/images/SuryaSoft2.png"),
+    //   date: "July 2021 – July 2022",
+    //   desc: "",
+    //   descBullets: [
+    //     "Designed and developed responsive web pages utilizing React.Js library, ChartJs, and FluentUI framework, achieving highly visual and interactive user interfaces that effectively convey complex data and information.",
+    //     "Programmed a dashboard that handles POST requests, handling user concurrency up to 10. Collaborated with a team of five to enhance existing code, integrating new features such as the date and currency selection to boost user engagement and interactivity. Worked closely with team members to identify and resolve bugs and ensure smooth project delivery.",
+    //   ]
+    // },
     {
       role: "Software Development Intern",
       company: "Surya Software Pvt Ltd",
@@ -195,8 +228,8 @@ const workExperiences = {
       date: "July 2021 – July 2022",
       desc: "",
       descBullets: [
-        "Designed and developed responsive web pages utilizing React.Js library, ChartJs, and FluentUI framework, achieving highly visual and interactive user interfaces that effectively convey complex data and information.",
-        "Programmed a dashboard that handles POST requests, handling user concurrency up to 10. Collaborated with a team of five to enhance existing code, integrating new features such as the date and currency selection to boost user engagement and interactivity. Worked closely with team members to identify and resolve bugs and ensure smooth project delivery.",
+        "Developed visually rich and interactive web pages using React.JS, ChartJS, and FluentUI, effectively communicating complex data.",
+        "Built a responsive dashboard handling 10 concurrent user requests, collaborated on feature enhancements like date and currency selection, and resolved bugs for successful project delivery.",
       ]
     },
     {
@@ -206,8 +239,8 @@ const workExperiences = {
       date: "August 2023 – Present",
       desc: "",
       descBullets: [
-        "CSE 470: Introduction to Computer Graphics: Constructed and assessed projects with Javascript and WebGL API. Provided constructive feedback to students based on their work. ",
-        "CSE 477: Assessed assignments, exams, and projects for using Wolfram Mathematica based on established criteria. Assisted in generating grade reports or summaries for instructors or academic departments."
+        "CSE 470: Introduction to Computer Graphics: Constructed and assessed projects with Javascript and WebGL API. ",
+        "CSE 477: Assessed assignments, exams, and projects for using Wolfram Mathematica. "
       ]
     },
   ]
@@ -225,7 +258,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some of my most favorite projects in no particular order",
+  subtitle: "Here are some of my most favorite projects in no particular order",
   projects: [
     {
       image: require("./assets/images/DDS.png"),
@@ -348,33 +381,6 @@ const achievementSection = {
       ]
     },
     // {
-    //   title: "Game Oasis Hackathon Winners",
-    //   subtitle:
-    //     "Led a team of 3 in building co-op game on Unity using layer 2 Matic blockchain network.",
-    //   image: require("./assets/images/matic-logo4.png"),
-    //   imageAlt: "Game Oasis Hackathon",
-    //   footerLink: [
-    //   ]
-    // },
-    // {
-    //   title: "Intel ADAS Competition Finalists",
-    //   subtitle:
-    //     "Built a drowsiness detection on drivers trained on ML models",
-    //   image: require("./assets/images/intel-logo.png"),
-    //   imageAlt: "Intel OpenVino Drowsiness Detection",
-    //   footerLink: [
-    //   ]
-    // },
-    // {
-    //   title: "ASA DataFest Hackathon Mentor",
-    //   subtitle:
-    //     "Mentored undergraduate participants in ASA Datafest Hackathon held across multiple colleges in Arizona State ",
-    //   image: require("./assets/images/datafest-logo.png"),
-    //   imageAlt: "ASA DataFest Hackathon Mentor",
-    //   footerLink: [ 
-    //   ]
-    // },
-    // {
     //   title: "PWA Web App Developer",
     //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
     //   image: require("./assets/images/pwaLogo.webp"),
@@ -492,7 +498,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  //  "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: false // Set false to hide this section, defaults to true
 };
