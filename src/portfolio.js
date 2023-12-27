@@ -49,7 +49,7 @@ const skillsSection = {
   subTitle: "A Full Stack Developer with goal-driven creative mindset and passion to learn and innovate.",
   skills: [
     emoji(
-      "⚡ Currently pursuing Master's in Computer Science at Arizona State University with an experience of 1 year as an Application Development Associate at Accenture and Software Development Intern at Surya Software Pvt Ltd."
+      "⚡ Currently pursuing Master's in Computer Science at Arizona State University with an year of experience as an Application Development Associate at Accenture and Software Development Intern at Surya Software Pvt Ltd."
     ),
     emoji("⚡ Currently looking for SDE Roles")
     // emoji(
@@ -200,14 +200,14 @@ const workExperiences = {
       ]
     },
     {
-      role: "GCSE 477: Introduction to Computer-Aided Geometric Design",
+      role: "GSA: Graduate Student Assistant",
       company: "Grader",
       companylogo: require("./assets/images/ASU.png"),
       date: "August 2023 – Present",
       desc: "",
       descBullets: [
-        "Assessed assignments, exams, or projects  for CSE477 using Wolfram Mathematica based on established criteria.",
-        "Provided clear and constructive feedback to students to help them understand their strengths and areas for improvement. Assisted in generating grade reports or summaries for instructors or academic departments."
+        "CSE 470: Introduction to Computer Graphics: Constructed and assessed projects with Javascript and WebGL API. Provided constructive feedback to students based on their work. ",
+        "CSE 477: Assessed assignments, exams, and projects for using Wolfram Mathematica based on established criteria. Assisted in generating grade reports or summaries for instructors or academic departments."
       ]
     },
   ]
@@ -230,7 +230,7 @@ const bigProjects = {
     {
       image: require("./assets/images/DDS.png"),
       projectName: "MobileChain Pro: Mobile Phone Supply Management",
-      projectDesc: "Spearheading a team to design, implement, and optimize a supply chain tracking and management system using PostgreSQL, Apache ZooKeeper, Apache Ignite, MongoDB, and Docker for increased scalability, improve data retrieval, and reduced recovery failure.",
+      projectDesc: "Implementated a supply chain tracking and management system using CockroachDB for SQL, MongoDB for NoSQL, and Docker for increased scalability, improve data retrieval, and reduced failure.",
       footerLink: [
         // {
         //   name: "Visit repo",
@@ -241,8 +241,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/AndroidStudio.png"),
-      projectName: "Enhanced Android Security with ML Malware Detection",
-      projectDesc: "Android Studio application incorporating dynamic features and advanced malware detection capabilities to enhance mobile device security.",
+      projectName: "HealthGuardian: Vital Mindful Companion",
+      projectDesc: "Android application with real-time weather updates, personalized health recommendations personalized mindfulness suggestions aligned with daily routines.",
       footerLink: [
         // {
         //   name: "Visit repo",
@@ -252,15 +252,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/AWS.png"),
-      projectName: "Serverless Employee Details Management",
-      projectDesc: "An AWS project integration AngularJS with secure user authentication which lets the user store, add and search employee information. ",
+      image: require("./assets/images/FacialRecognition.png"),
+      projectName: "Cloud-Optimized Facial Recognition Solution",
+      projectDesc: "An end-to-end facial recognition system using AWS Amplify, seamlessly integrating AWS Lambda functions, DynamoDB for data storage, and AWS Rekognition for image analysis ",
       footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: " https://detect-deepfake.web.app/"
-        // }
-        //  you can add extra buttons here.
+        {
+          name: "Visit Website",
+          url: "https://awsfacerecognition.netlify.app/"
+        }
       ]
     },
     {
