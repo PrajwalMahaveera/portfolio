@@ -320,7 +320,7 @@ const bigProjects = {
     {
       image: require("./assets/images/FakeReview.png"),
       projectName: "Fake Reviews Detection",
-      projectDesc: "Analyzed fake and authentic reviews using machine learning models, identifying key features like date variance, activity time for differentiation.Compared model performance, with Random Forest outperforming SVM and deep learning. Proposed utilizing review content, sentiment analysis, emphasizing the importance of larger review corpus.",
+      projectDesc: "Applied ML models to differentiate fake vs authentic reviews, emphasizing date variance and activity time. Compared model performances, suggested leveraging review content and sentiment analysis.",
       footerLink: [
         // {
         //   name: "View redesign",
@@ -331,7 +331,18 @@ const bigProjects = {
     {
       image: require("./assets/images/HeartRate.png"),
       projectName: "HealthVitals Pro",
-      projectDesc: "Designed and implemented a Context Monitoring Application for Android users, integrating heart rate and respiratory rate sensing capabilities using smartphone sensors and camera technology. This application enabled users to monitor their vital signs conveniently and utilized SQLite as the database system for secure data storage and management.",
+      projectDesc: "Developed an Android Context Monitoring App, integrating smartphone sensors and camera tech for heart rate and respiratory monitoring. Enabled secure data storage with SQLite for vital sign records.",
+      footerLink: [
+        // {
+        //   name: "View redesign",
+        //   url: "https://un26ff.axshare.com/#id=p5vr8a&p=homepage"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/AWSnotes.png"),
+      projectName: "Serverless Notebook API",
+      projectDesc: "Developed RESTful APIs using Node.js, AWS Lambda, DynamoDB, and API Gateway through AWS CodePipeline for automated CI/CD processes deploying Lambda functions and DynamoDB tables via Infrastructure as Code (IaC) using Serverless Framework.",
       footerLink: [
         // {
         //   name: "View redesign",
