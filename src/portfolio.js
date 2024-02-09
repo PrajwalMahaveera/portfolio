@@ -181,7 +181,7 @@ const workExperiences = {
       role: "Software Consultant Intern",
       company: "Local Grown Salads",
       companylogo: require("./assets/images/LGS5.png"),
-      date: "May 2023 – Present",
+      date: "May 2023 – August 2023",
       desc: "",
       descBullets: [
         "Managed SQL queries for table modifications in AWS RDS, enhancing processes.",
@@ -225,7 +225,7 @@ const workExperiences = {
       role: "Software Development Intern",
       company: "Surya Software Pvt Ltd",
       companylogo: require("./assets/images/SuryaSoft2.png"),
-      date: "July 2021 – July 2022",
+      date: "March 2021 – May 2022",
       desc: "",
       descBullets: [
         "Developed visually rich and interactive web pages using React.JS, ChartJS, and FluentUI, effectively communicating complex data.",
