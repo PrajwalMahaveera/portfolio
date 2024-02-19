@@ -86,6 +86,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "express",
+      fontAwesomeClassname: "fab fa-express"
+    },
+    {
       skillName: "android",
       fontAwesomeClassname: "fab fa-android"
     },
@@ -273,15 +277,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/AndroidStudio.png"),
-      projectName: "HealthGuardian: Vital Mindful Companion",
-      projectDesc: "Android application with real-time weather updates, personalized health recommendations personalized mindfulness suggestions aligned with daily routines.",
+      image: require("./assets/images/nft.png"),
+      projectName: "NFT Marketplace",
+      projectDesc: "Developed an NFT memberships marketplace that lets the users buy/sell NFTs and maintained code repositories using Git that also prioritizes Web Accessibility (A11Y) concerns in the UI/UX design.",
       footerLink: [
         // {
         //   name: "Visit repo",
-        //   url: "https://github.com/Surya-Narayan/546-lambda"
+        //   url: "https://github.com/Surya-Narayan/Pacman"
         // }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -329,17 +332,6 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/HeartRate.png"),
-      projectName: "HealthVitals Pro",
-      projectDesc: "Developed an Android Context Monitoring App, integrating smartphone sensors and camera tech for heart rate and respiratory monitoring. Enabled secure data storage with SQLite for vital sign records.",
-      footerLink: [
-        // {
-        //   name: "View redesign",
-        //   url: "https://un26ff.axshare.com/#id=p5vr8a&p=homepage"
-        // }
-      ]
-    },
-    {
       image: require("./assets/images/AWSnotes.png"),
       projectName: "Serverless Notebook API",
       projectDesc: "Developed RESTful APIs using Node.js, AWS Lambda, DynamoDB, and API Gateway through AWS CodePipeline for automated CI/CD processes deploying Lambda functions and DynamoDB tables via Infrastructure as Code (IaC) using Serverless Framework.",
@@ -351,16 +343,29 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/VANET2.png"),
-      projectName: "Topological and Geographical VANET Routing Protocol Analysis",
-      projectDesc: "Simulated and analysed Topological and Geographical Vehicular ad hoc Network(VANET) routing protocols over real-world scenarios and Bengaluru locality map and analysed/compared the results to determine the best suited protocols for scenarios.",
+      image: require("./assets/images/HeartRate.png"),
+      projectName: "HealthVitals Pro",
+      projectDesc: "Developed an Android Context Monitoring App, integrating smartphone sensors and camera tech for heart rate and respiratory monitoring. Enabled secure data storage with SQLite for vital sign records.",
       footerLink: [
         // {
-        //   name: "Visit repo",
-        //   url: "https://github.com/Surya-Narayan/Pacman"
+        //   name: "View redesign",
+        //   url: "https://un26ff.axshare.com/#id=p5vr8a&p=homepage"
         // }
       ]
     },
+    {
+      image: require("./assets/images/AndroidStudio.png"),
+      projectName: "HealthGuardian: Vital Mindful Companion",
+      projectDesc: "Android application with real-time weather updates, personalized health recommendations personalized mindfulness suggestions aligned with daily routines.",
+      footerLink: [
+        // {
+        //   name: "Visit repo",
+        //   url: "https://github.com/Surya-Narayan/546-lambda"
+        // }
+        //  you can add extra buttons here.
+      ]
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
