@@ -23,7 +23,7 @@ const greeting = {
   username: "Prajwal Mahaveera",
   title: "Hey, I'm Prajwal",
   subTitle: emoji(
-    "A Computer Science Graduate Student at Arizona State University passionate about Software Development with experience in building applications with Javascript / AWS and proficiency in Java/C."
+    "A Computer Science Graduate Student at Arizona State University passionate about Software Development with experience in building applications with Javascript / AWS and proficient in Java."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1N184u4PVUUqLkwr25gfvLEzcEUO-01iR/edit?usp=sharing&ouid=102853679855982342543&rtpof=true&sd=true", // Set to empty to hide the button
@@ -188,7 +188,7 @@ const workExperiences = {
       date: "May 2023 – August 2023",
       desc: "",
       descBullets: [
-        "Managed SQL queries for table modifications in AWS RDS, enhancing processes.",
+        "Built several critical APIs for the dashboard and implemented unit tests to ensure the robustness of services. Worked on some CRON jobs to refresh the database views.",
         "Led cross-functional teams, creating Dataflow diagrams and executing successful team roadmaps."
       ]
     },
@@ -210,8 +210,8 @@ const workExperiences = {
       date: "Aug 2021 – May 2022",
       desc: "",
       descBullets: [
-        "Managed Openlab application, ensuring optimal performance by proactively identifying and resolving core issues.",
-        "Supported life science applications, resolving around 90 weekly software issues using JIRA for project tracking and Git for version control, completing projects ahead of schedule."
+        "Resolved software functionality issues, resulting in a 35% improvement in file upload speeds in the application.",
+        "Addressed high-priority customer software issues and served as the point of contact for Openlab application, ensuring effective communication and client satisfaction."
       ]
     },
     // {
@@ -233,7 +233,7 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Developed visually rich and interactive web pages using React.JS, ChartJS, and FluentUI, effectively communicating complex data.",
-        "Built a responsive dashboard handling 10 concurrent user requests, collaborated on feature enhancements like date and currency selection, and resolved bugs for successful project delivery.",
+        "Revamped existing codebase using GraphQL with FluentUI components, elevating user engagement and overall interactivity by 28%.",
       ]
     },
     {
@@ -243,8 +243,8 @@ const workExperiences = {
       date: "August 2023 – Present",
       desc: "",
       descBullets: [
-        "CSE 470: Introduction to Computer Graphics: Constructed and assessed projects with Javascript and WebGL API. ",
-        "CSE 477: Assessed assignments, exams, and projects for using Wolfram Mathematica. "
+        "CSE 470: Introduction to Computer Graphics: Managed a class of 125 students, grading and debugging JavaScript programs to provide comprehensive feedback to students.  ",
+        "CSE 477: Intro to Geomteric CAD:  Managed a class of 60 students, assessed assignments, exams, and projects for using Wolfram Mathematica. "
       ]
     },
   ]
