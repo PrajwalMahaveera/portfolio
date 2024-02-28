@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "A Computer Science Graduate Student at Arizona State University passionate about Software Development with experience in building applications with Javascript / AWS and proficient in Java."
   ),
-  resumeLink:
-    "https://docs.google.com/document/d/1N184u4PVUUqLkwr25gfvLEzcEUO-01iR/edit?usp=sharing&ouid=102853679855982342543&rtpof=true&sd=true", // Set to empty to hide the button
+  //resumeLink:
+  //  "https://docs.google.com/document/d/1N184u4PVUUqLkwr25gfvLEzcEUO-01iR/edit?usp=sharing&ouid=102853679855982342543&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
