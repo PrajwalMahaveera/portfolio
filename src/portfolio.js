@@ -188,7 +188,7 @@ const workExperiences = {
       date: "May 2023 – August 2023",
       desc: "",
       descBullets: [
-        "Built several critical APIs for the dashboard and implemented unit tests to ensure the robustness of services. Worked on some CRON jobs to refresh the database views.",
+        "Built several critical APIs for the dashboard ensuring the robustness of services.Developed reports using CRON jobs, contributing to data accuracy & efficient reporting.",
         "Led cross-functional teams, creating Dataflow diagrams and executing successful team roadmaps."
       ]
     },
