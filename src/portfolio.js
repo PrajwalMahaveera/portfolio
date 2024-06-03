@@ -23,7 +23,7 @@ const greeting = {
   username: "Prajwal Mahaveera",
   title: "Hey, I'm Prajwal",
   subTitle: emoji(
-    "A Computer Science Graduate Student at Arizona State University passionate about Software Development with experience in building applications with Javascript / AWS and proficient in Java."
+    "A Computer Science Graduate from Arizona State University with a passion for Software Engineering/ building and testing applications."
   ),
   //resumeLink:
   //  "https://docs.google.com/document/d/1N184u4PVUUqLkwr25gfvLEzcEUO-01iR/edit?usp=sharing&ouid=102853679855982342543&rtpof=true&sd=true", // Set to empty to hide the button
@@ -46,10 +46,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "More about me", 
-  subTitle: "A Full Stack Developer with goal-driven creative mindset and passion to learn and innovate.",
+  subTitle: "A Software Engineer with goal-driven creative mindset and passion to learn and innovate.",
   skills: [
     emoji(
-      "⚡ Currently pursuing Master's in Computer Science at Arizona State University with an year of experience as an Application Development Associate at Accenture and Software Development Intern at Surya Software Pvt Ltd."
+      "⚡A dedicated Computer Science Graduate, with strong fundamentals in design, data structures, and problem-solving."
     ),
     emoji("⚡ Currently looking for SDE Roles")
     // emoji(
@@ -106,8 +106,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "angular",
-      fontAwesomeClassname: "fab fa-angular"
+      skillName: "Selenium",
+      fontAwesomeClassname:  "https://example.com/path-to-selenium-icon.svg"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -174,33 +174,11 @@ const workExperiences = {
     //   role: "Software Consultant Intern",
     //   company: "Local Grown Salads",
     //   companylogo: require("./assets/images/LGS5.png"),
-    //   date: "May 2023 – Present",
+    //   date: "May 2023 – August 2023",
     //   desc: "",
     //   descBullets: [
-    //     "Wrote SQL queries to manage table deletions and modifications within AWS RDS. Collaborated on testing AWS Lambda functions using Postman, leading to a noteworthy enhancement of results by 20%.",
-    //     "Collaborated with cross-functional teams to build Dataflow diagrams, designed and executed a team roadmap, leading a group of four to achieve successful results."
-    //   ]
-    // },
-    {
-      role: "Software Consultant Intern",
-      company: "Local Grown Salads",
-      companylogo: require("./assets/images/LGS5.png"),
-      date: "May 2023 – August 2023",
-      desc: "",
-      descBullets: [
-        "Built several critical APIs for the dashboard ensuring the robustness of services.Developed reports using CRON jobs, contributing to data accuracy & efficient reporting.",
-        "Led cross-functional teams, creating Dataflow diagrams and executing successful team roadmaps."
-      ]
-    },
-    // {
-    //   role: "Application Development Associate",
-    //   company: "Accenture",
-    //   companylogo: require("./assets/images/accenture.png"),
-    //   date: "Aug 2021 – May 2022",
-    //   desc: "",
-    //   descBullets: ["Collaborated with Agilent and internal teams to troubleshoot software issues, significantly improving file upload speeds by up to 30%.",
-    //     "Served as primary client liaison for the Openlab application, taking ownership of the application and proactively identifying and debugging core issues to ensure optimal performance and customer satisfaction.",
-    //     "Supported life science applications like Openlab and Empower, clearing approximately 90 software issues and incidents weekly. Leveraged project management software JIRA to track the project's progress and Git for version control to complete it two weeks before the expected duration."
+    //     "Built several critical APIs for the dashboard ensuring the robustness of services.Developed reports using CRON jobs, contributing to data accuracy & efficient reporting.",
+    //     "Led cross-functional teams, creating Dataflow diagrams and executing successful team roadmaps."
     //   ]
     // },
     {
