@@ -170,17 +170,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Consultant Intern",
-    //   company: "Local Grown Salads",
-    //   companylogo: require("./assets/images/LGS5.png"),
-    //   date: "May 2023 – August 2023",
-    //   desc: "",
-    //   descBullets: [
-    //     "Built several critical APIs for the dashboard ensuring the robustness of services.Developed reports using CRON jobs, contributing to data accuracy & efficient reporting.",
-    //     "Led cross-functional teams, creating Dataflow diagrams and executing successful team roadmaps."
-    //   ]
-    // },
+    {
+      role: "Software Consultant Intern",
+      company: "Local Grown Salads",
+      companylogo: require("./assets/images/LGS5.png"),
+      date: "May 2023 – August 2023",
+      desc: "",
+      descBullets: [
+        "Built several critical APIs for the dashboard ensuring the robustness of services.Developed reports using CRON jobs, contributing to data accuracy & efficient reporting.",
+        "Led cross-functional teams, creating Dataflow diagrams and executing successful team roadmaps."
+      ]
+    },
     {
       role: "Application Development Associate",
       company: "Accenture",
@@ -189,7 +189,8 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Resolved software functionality issues, resulting in a 35% improvement in file upload speeds in the application.",
-        "Addressed high-priority customer software issues and served as the point of contact for Openlab application, ensuring effective communication and client satisfaction."
+        "Developed a comprehensive business dashboard integrating customer information, enhancing data visibility and decision-making efficiency. Reduced the incident response times by 20%.",
+        "Trained in Accenture Development Program in Java and Spring for a duration of 3 months."
       ]
     },
     // {
